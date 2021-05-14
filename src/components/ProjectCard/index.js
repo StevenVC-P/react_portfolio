@@ -6,7 +6,7 @@ function ProjectCard(props) {
     <div className="card">
       <strong className="header">{props.name}</strong>
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img src={process.env.PUBLIC_URL + props.image} alt={props.name}/>
       </div>
       <nav className="navbar-expand navbar-light">
       <div className="content nav navbar-nav d-flex justify-content-around">
