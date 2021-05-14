@@ -8,11 +8,11 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router basename="/test_repository">
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Header />
         <Wrapper>
-          <Route exact path="*" component={About} />
+          <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
         </Wrapper>
