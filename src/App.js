@@ -8,7 +8,7 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/test_repository">
       <div>
         <Header />
         <Wrapper>
