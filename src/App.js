@@ -8,7 +8,7 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="react_portfolio">
       <div>
         <Header />
         <Wrapper>
