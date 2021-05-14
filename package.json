@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://StevenVC-P.github.io/react_portfolio",
+  "homepage": "https://stevenvc-p.github.io/react_portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
