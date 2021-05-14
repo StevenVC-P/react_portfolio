@@ -13,7 +13,7 @@ function Header () {
                         <Link
                         to="/"
                         className={
-                            window.location.pathname ==="/" || window.location.pathname ==="/about"
+                            window.location.pathname ==="/" || window.location.pathname ==="/react_portfolio" || window.location.pathname ==="/react_portfolio/about"
                             ? "nav-link active"
                             : "nav-link"
                         }>
@@ -23,7 +23,7 @@ function Header () {
                     <li className="nav-item">
                         <Link
                         to="/projects"
-                        className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"
+                        className={window.location.pathname === "/react_portfolio/projects" ? "nav-link active" : "nav-link"
                         }>
                         Projects
                         </Link>
