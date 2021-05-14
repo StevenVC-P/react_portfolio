@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"
+import Resume from "../../assets/Full Stack Developer - Steven Van Court.pdf"
 import "./style.css";
 
 function Header () {
@@ -27,14 +28,7 @@ function Header () {
                         Projects
                         </Link>
                     </li>
-                    <li className="nav-item">
-                        <Link
-                        to="/resume"
-                        className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"
-                        }>
-                        Resume
-                        </Link>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href={Resume} target = "_blank" rel="noopener noreferrer">Resume</a></li>
                 </ul>
         </nav>
     </header>

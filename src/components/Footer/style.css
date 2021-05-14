@@ -1,16 +1,14 @@
 footer{
-    background-color: #DDE1E6;
-    color: #27381E;
-    min-height: 100px;
+    background-color: #F8F8F7;
+    color: #8E695F;
     position: relative;
 }
 
-.footer {
-    position: absolute;
+.footer{
+    font-weight: bold;
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 3px;
-    font-size: x-small;
+    font-size: xx-small;
 }
   

@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "name":"Day Planner",
+        "image": "./images/day_planner.png",
+        "github": "https://github.com/StevenVC-P/day_planner",
+        "url":"https://stevenvc-p.github.io/day_planner/"
+    },
+    {
+        "id":2,
+        "name":"Modern Mornings",
+        "image": "./images/modern_mornings.png",
+        "github": "https://github.com/StevenVC-P/modern_mornings",
+        "url":"https://github.com/StevenVC-P/modern_mornings"
+    } ,
+    {
+        "id":3,
+        "name":"Weather Dashboard",
+        "image": "./images/Weather Dashboard.png",
+        "github": "https://github.com/StevenVC-P/weather_dashboard",
+        "url":"https://stevenvc-p.github.io/weather_dashboard/"
+    } , 
+    {
+        "id":4,
+        "name":"Exercise Tracker",
+        "image": "./images/fitness_tracker.PNG",
+        "github": "https://github.com/StevenVC-P/exercise_tracker",
+        "url":"https://fitness-tracker733.herokuapp.com/?id=608d71a9f25ae300158fbdf0"
+    }  ,
+    {
+        "id":5,
+        "name":"Budget Tracker",
+        "image": "./images/budget_tracker.png",
+        "github": "https://github.com/StevenVC-P/budget_tracker",
+        "url":"https://budget-tracker733.herokuapp.com/"
+    } , 
+    {
+        "id":6,
+        "name":"Employee Directory",
+        "image": "./images/employee_directory.png",
+        "github": "https://github.com/StevenVC-P/employee_directory",
+        "url":"https://stevenvc-p.github.io/employee_directory/"
+    }  
+]
