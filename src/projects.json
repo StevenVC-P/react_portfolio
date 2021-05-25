@@ -8,37 +8,51 @@
     },
     {
         "id":2,
-        "name":"Modern Mornings",
-        "image": "/images/modern_mornings.png",
-        "github": "https://github.com/StevenVC-P/modern_mornings",
-        "url":"https://github.com/StevenVC-P/modern_mornings"
-    } ,
-    {
-        "id":3,
         "name":"Weather Dashboard",
         "image": "/images/Weather Dashboard.png",
         "github": "https://github.com/StevenVC-P/weather_dashboard",
         "url":"https://stevenvc-p.github.io/weather_dashboard/"
     } , 
     {
-        "id":4,
+        "id":3,
         "name":"Exercise Tracker",
         "image": "/images/fitness_tracker.PNG",
         "github": "https://github.com/StevenVC-P/exercise_tracker",
         "url":"https://fitness-tracker733.herokuapp.com/?id=608d71a9f25ae300158fbdf0"
     }  ,
     {
-        "id":5,
+        "id":4,
         "name":"Budget Tracker",
         "image": "/images/budget_tracker.png",
         "github": "https://github.com/StevenVC-P/budget_tracker",
         "url":"https://budget-tracker733.herokuapp.com/"
     } , 
     {
-        "id":6,
+        "id":5,
         "name":"Employee Directory",
         "image": "/images/employee_directory.png",
         "github": "https://github.com/StevenVC-P/employee_directory",
         "url":"https://stevenvc-p.github.io/employee_directory/"
-    }  
+    },  
+    {
+        "id":6,
+        "name":"Modern Mornings",
+        "image": "/images/modern_mornings.png",
+        "github": "https://github.com/StevenVC-P/modern_mornings",
+        "url":"https://stevenvc-p.github.io/modern_mornings/"
+    } ,
+    {
+        "id":7,
+        "name":"DayCare CMS",
+        "image": "/images/daycare_cms.png",
+        "github": "https://github.com/StevenVC-P/daycare_cms",
+        "url":"https://quiet-bayou-23568.herokuapp.com/"
+    } ,
+    {
+        "id":8,
+        "name":"Swaps",
+        "image": "/images/swap.png",
+        "github": "https://github.com/StevenVC-P/swaps",
+        "url":"https://young-depths-16345.herokuapp.com/"
+    } 
 ]

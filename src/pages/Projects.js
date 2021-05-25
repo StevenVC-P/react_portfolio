@@ -18,7 +18,7 @@ class Projects extends Component {
                         id={projects.id}
                         name={projects.name}
                         image={projects.image}
-                        github={projects.url}
+                        github={projects.github}
                         url={projects.url}
                         />
                     ))}

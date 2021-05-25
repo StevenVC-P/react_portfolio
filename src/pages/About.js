@@ -19,9 +19,10 @@ function About () {
                         <img src= {my_pic} width="300" height="300" alt="Picture of me" />
                     </Col>
                     <Col size="sm-12 md-6 lg-7 xl-8">
-                            <p>I am a Full Stack Developer after a career swtich from auditing.  While I still enjoy thinking and planning around risks, I've found a creative spark in building. I am currently enrolled at the University of Minnesota Bootcamp.
-                                From Coon Rapids, I am an avid gamer with popular titles World of Warcraft and Minecraft and have begun learning how I can use programming skill to better both my and friends experince in these games.
-                            </p>
+                            <p>I am a Full Stack Developer after a career switch from auditing. While I still enjoy thinking and planning around risks, 
+                                I've found a creative spark in building. I am currently enrolled at the University of Minnesota Bootcamp. From Coon Rapids, 
+                                I am an avid gamer with popular titles World of Warcraft and Minecraft and have begun learning how I can use programming skills 
+                                to better both my and friends' experience in these games.</p>
                     </Col>
                 </Row>
             </Container>

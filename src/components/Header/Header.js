@@ -28,7 +28,7 @@ function Header () {
                         Projects
                         </Link>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href={Resume} target = "_blank" rel="noopener noreferrer">Resume</a></li>
+                    <li className="nav-item"><a className="nav-link" href={Resume} target = "_blank" rel="noopener noreferrer">Resume</a></li>
                 </ul>
         </nav>
     </header>
