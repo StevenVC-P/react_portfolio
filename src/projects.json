@@ -44,14 +44,14 @@
     {
         "id":7,
         "name":"DayCare CMS",
-        "image": "/images/daycare_cms.png",
+        "image": "/images/day_planner.png",
         "github": "https://github.com/StevenVC-P/daycare_cms",
         "url":"https://quiet-bayou-23568.herokuapp.com/"
     } ,
     {
         "id":8,
         "name":"Swaps",
-        "image": "/images/swap.png",
+        "image": "/images/Swap.png",
         "github": "https://github.com/StevenVC-P/swaps",
         "url":"https://young-depths-16345.herokuapp.com/"
     } 
