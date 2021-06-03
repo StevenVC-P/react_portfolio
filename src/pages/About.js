@@ -19,10 +19,11 @@ function About () {
                         <img src= {my_pic} width="300" height="300" alt="Picture of me" />
                     </Col>
                     <Col size="sm-12 md-6 lg-7 xl-8">
-                            <p>I am a Full Stack Developer after a career switch from auditing. While I still enjoy thinking and planning around risks, 
-                                I've found a creative spark in building. I am currently enrolled at the University of Minnesota Bootcamp. From Coon Rapids, 
-                                I am an avid gamer with popular titles World of Warcraft and Minecraft and have begun learning how I can use programming skills 
-                                to better both my and friends' experience in these games.</p>
+                            <p>Self-starting and resourceful Full Stack Developer with military and audit experience.  
+                                With training in implementing front-end and back-end coding, I am astute and always-learning.  
+                                On group projects, I brought focus to design for user interactions on websites and databases.  
+                                Understands website functionality and coding for multiple platforms and meticulously creates fully functional code.  
+                                Experienced in communicating clearly with others, both technical and non-technical team members and promoting drive towards end-user needs.</p>
                     </Col>
                 </Row>
             </Container>
