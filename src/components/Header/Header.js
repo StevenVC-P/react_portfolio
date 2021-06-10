@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"
-import Resume from "../../assets/Full Stack Developer - Steven Van Court(3).pdf"
+import Resume from "../../assets/Full Stack Developer - Steven Van Court(tech).pdf"
 import "./style.css";
 
 function Header () {
