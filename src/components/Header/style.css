@@ -1,11 +1,12 @@
 header{
-    background-color: #92B0AB;
-    color: #3E5045
+    padding-top: 20px;
+    background-color: #11131b;
+    color: #C5C6C7;
 }
 
 nav{
-    background-color: #948B68;
-    color: #3E5045
+    background-color: #11131b;
+    color: #C5C6C7;
 }
 
 .nav-item{

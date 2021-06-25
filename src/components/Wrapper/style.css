@@ -1,11 +1,16 @@
 .wrapper {
   padding-top: 50px;
-  background: #ECEFF1;
-  height: 100%;
+  background: #1F2833;
+  color: #C5C6C7;
+  height: 100vh;
   display: flex;
   flex-flow: row wrap;
   padding: 20px;
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
+}
+
+.wrapper > .card {
+  border-radius: 25px;
 }

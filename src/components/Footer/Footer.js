@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <nav className="navbar-expand navbar-light">
+      <nav className="navbar-expand">
         <ul className="nav navbar-nav d-flex justify-content-between">
           <li className="nav-itema"><a className="nav-link" href="Steven.Vancourt@gmail.com" target = "_blank" rel="noopener noreferrer">E-mail: Steven.Vancourt@gmail.com</a></li>
           <li className="nav-itema"><div className="nav-link">Cell Phone: 715-864-0930</div></li>

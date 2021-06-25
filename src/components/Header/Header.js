@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom"
-import Resume from "../../assets/Full Stack Developer - Steven Van Court(tech).pdf"
+import Resume from "../../assets/Full Stack Developer - Steven Van Court(tech-2).pdf"
 import "./style.css";
 
 function Header () {
     return (
         <header className="text-center">
             <h3>Steven Van Court</h3><h6>Full Stack Programmer</h6>
-            <nav className="navbar navbar-expand navbar-light d-flex justify-content-between">
+            <nav className="navbar navbar-expand d-flex justify-content-between">
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link

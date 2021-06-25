@@ -15,34 +15,20 @@
     } , 
     {
         "id":3,
-        "name":"Exercise Tracker",
-        "image": "/images/fitness_tracker.PNG",
-        "github": "https://github.com/StevenVC-P/exercise_tracker",
-        "url":"https://fitness-tracker733.herokuapp.com/?id=608d71a9f25ae300158fbdf0"
-    }  ,
-    {
-        "id":4,
-        "name":"Budget Tracker",
-        "image": "/images/budget_tracker.png",
-        "github": "https://github.com/StevenVC-P/budget_tracker",
-        "url":"https://budget-tracker733.herokuapp.com/"
-    } , 
-    {
-        "id":5,
         "name":"Employee Directory",
         "image": "/images/employee_directory.png",
         "github": "https://github.com/StevenVC-P/employee_directory",
         "url":"https://stevenvc-p.github.io/employee_directory/"
     },  
     {
-        "id":6,
+        "id":4,
         "name":"Modern Mornings",
         "image": "/images/modern_mornings.png",
         "github": "https://github.com/StevenVC-P/modern_mornings",
         "url":"https://stevenvc-p.github.io/modern_mornings/"
     } ,
     {
-        "id":7,
+        "id":5,
         "name":"DayCare CMS",
         "image": "/images/day_planner.png",
         "github": "https://github.com/StevenVC-P/daycare_cms",
@@ -50,7 +36,7 @@
     } ,
 
     {
-        "id":8,
+        "id":6,
         "name":"Swaps",
         "image": "/images/swap1.png",
         "github": "https://github.com/StevenVC-P/swaps/",
