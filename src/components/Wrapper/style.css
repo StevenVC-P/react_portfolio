@@ -3,10 +3,10 @@
   background: #1F2833;
   color: #C5C6C7;
   display: flex;
-  flex-flow: row wrap;
-  margin: 0 1% 15% 1%;
+  flex-flow: row wrap;;
+  margin: 20px 1% 10px 1%;
   justify-content: space-around;
-  align-content: flex-start;
+  align-content: center;
   overflow: auto;
 }
 
