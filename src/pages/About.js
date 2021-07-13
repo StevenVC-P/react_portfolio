@@ -19,11 +19,20 @@ function About () {
                         <img src= {my_pic} width="300" height="300" alt="Picture of me" />
                     </Col>
                     <Col size="sm-12 md-6 lg-7 xl-8">
-                            <p>Self-starting and resourceful Full Stack Developer with military and audit experience.  
-                                With training in implementing front-end and back-end coding, I am astute and always-learning.  
-                                On group projects, I brought focus to design for user interactions on websites and databases.  
-                                Understands website functionality and coding for multiple platforms and meticulously creates fully functional code.  
-                                Experienced in communicating clearly with others, both technical and non-technical team members and promoting drive towards end-user needs.</p>
+                            <p> 
+                                Self-starting and resourceful Full Stack Developer with military and audit experience with training in implementing front-end and back-end coding.     
+                                Astute and always-learning on group projects, the focus is design for user interactions on websites and databases. 
+                                Understands website functionality and meticulously creates fully functional code.  
+                                Former professional experiences evidence clear communication skills with others, both technical and non-technical team members, and promote drive towards end-user needs.
+                            </p>
+                            <p> Technical Skills:
+                                <ul>
+                                    <li>Languages: HTML, CSS, ES6 Javascript, Handlebars</li>
+                                    <li>Frameworks/Libraries: Node.js, Express, React, Jquery, Bootstrap</li>
+                                    <li>Tools: MySql, MongoDB, Rest APIs, Axios, Sequelize</li>
+                                    <li>Methods: Restful WebServices, Testing, Asynchronous Programming, Pair Programming</li>
+                                </ul>
+                            </p>
                     </Col>
                 </Row>
             </Container>

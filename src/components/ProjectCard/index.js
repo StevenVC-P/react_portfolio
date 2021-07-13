@@ -1,10 +1,15 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style.css";
 
 function ProjectCard(props) {
   return (
-    <div className="card">
-      <strong className="header">{props.name}</strong>
+    <div className="card col-12 col-sm-5">
+      <strong className="header">
+        <h3>{props.name}</h3>
+      <p><strong>Summary:</strong> {props.summary}</p>
+      <p><strong>Technical:</strong> {props.tech}</p>
+      </strong>
       <div className="img-container">
         <img alt={props.name} src={process.env.PUBLIC_URL + props.image} />
       </div>
