@@ -27,7 +27,7 @@ function About () {
                             </p>
                             <p> Technical Skills:
                                 <ul>
-                                    <li>Languages: HTML, CSS, ES6 Javascript, Handlebars</li>
+                                    <li>Languages: HTML, CSS, ES6 JavaScript, Handlebars</li>
                                     <li>Frameworks/Libraries: Node.js, Express, React, Jquery, Bootstrap</li>
                                     <li>Tools: MySql, MongoDB, Rest APIs, Axios, Sequelize</li>
                                     <li>Methods: Restful WebServices, Testing, Asynchronous Programming, Pair Programming</li>

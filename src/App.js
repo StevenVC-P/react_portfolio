@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Wrapper from "./components/Wrapper";
+import "./App.css";
 
 function App() {
   return (
