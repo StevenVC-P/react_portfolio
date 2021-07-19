@@ -38,7 +38,7 @@
     {
         "id":5,
         "name":"DayCare CMS",
-        "image": "/images/daycare_cms.png",
+        "image": "/images/daycare_cms2.png",
         "summary":"CRM system for daycare providers to track family information",
         "tech":"Using SQL and AJAX, information for each family can added, edited, viewed, or deleted.  Lastly, PDHKit is used to create a unqiue PDF for each families billing.",
         "github": "https://github.com/StevenVC-P/daycare_cms",
@@ -54,5 +54,4 @@
         "github": "https://github.com/StevenVC-P/swaps/",
         "url":"https://young-depths-16345.herokuapp.com/"
     } 
-    
 ]
