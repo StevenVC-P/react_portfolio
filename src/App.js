@@ -10,11 +10,12 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename="/react_portfolio">
+    <Router>
       <div>
         <Header />
         <Wrapper>
           <Routes>
+            <Route path="/react_portfolio" element={<About />} />
             <Route path="/" element={<About />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
