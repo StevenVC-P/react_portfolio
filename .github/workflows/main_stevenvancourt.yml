@@ -28,23 +28,24 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-
+      
       # Use npm ci for faster, reliable builds
       - name: npm install, build, and test
         run: |
           npm ci
           npm run build --if-present
-
-      # Zip the necessary files and folders
-      - name: Zip the application
+      
+      # Zip the build folder
+      - name: Zip the build folder
         run: |
-          zip -r my-app.zip src/ public/ package.json package-lock.json web.config
-
+          zip -r build.zip build/
+      
+      # Upload the zipped artifact
       - name: Upload zipped artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
-          name: zipped-app
-          path: my-app.zip
+          name: build-artifact
+          path: build.zip
 
   deploy:
     runs-on: ubuntu-latest
@@ -57,12 +58,13 @@ jobs:
       - name: Download zipped artifact from build job
         uses: actions/download-artifact@v2
         with:
-          name: zipped-app
-
-      # Unzip the application
-      - name: Unzip the application
-        run: unzip my-app.zip
-
+          name: build-artifact
+      
+      # Unzip the build artifact
+      - name: Unzip the build artifact
+        run: unzip build.zip
+      
+      # Deploy to Azure Web App
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
@@ -70,5 +72,4 @@ jobs:
           app-name: 'StevenVanCourt'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4C71EDC52D5F47249A3994F57D7BBCB9 }}
-          package: ./
-          # Remove the startup-command if it's causing issues on a Windows web app
+          package: ./build/
