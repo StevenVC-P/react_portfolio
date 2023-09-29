@@ -70,5 +70,5 @@ jobs:
           app-name: 'StevenVanCourt'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4C71EDC52D5F47249A3994F57D7BBCB9 }}
-          package: .
+          package: ./
           # Remove the startup-command if it's causing issues on a Windows web app
