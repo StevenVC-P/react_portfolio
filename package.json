@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stevenvc-p.github.io/react_portfolio/",
+  "homepage": "https://stevenvancourt.azurewebsites.net/react_portfolio",
   "engines": {
     "node": "16.x"
   },
