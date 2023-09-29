@@ -38,7 +38,7 @@ jobs:
       # Zip the necessary files and folders
       - name: Zip the application
         run: |
-          zip -r my-app.zip src/ public/ package.json package-lock.json
+          zip -r my-app.zip src/ public/ package.json package-lock.json web.config
 
       - name: Upload zipped artifact for deployment job
         uses: actions/upload-artifact@v2
