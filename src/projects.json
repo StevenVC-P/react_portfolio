@@ -51,6 +51,6 @@
         "summary":"High quality social media platform for the zero energy swap enthusiast.",
         "tech":"Using React, user informaion, posts, and comments are saved into MongoDB for REST purposes.  The filter interacts with the state capabilites of React to make changes as the user wants.",
         "github": "https://github.com/StevenVC-P/swaps/",
-        "url":"https://young-depths-16345.herokuapp.com/"
+        "url":"https://swaps.stevenvancourt.com/"
     } 
 ]

@@ -12,3 +12,7 @@ nav{
 .nav-item{
     margin-left: 10%;
 }
+
+.nav-link{
+    color: #C5C6C7;
+}
