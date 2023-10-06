@@ -7,7 +7,7 @@ class Projects extends Component {
     state = {
         projects
     };
-
+    
     render(){
         return(
             <div>

@@ -3,6 +3,7 @@ footer{
     color: #C5C6C7;
     position:fixed;
     bottom: 0;
+
 }
 
 .footer{
@@ -11,5 +12,9 @@ footer{
     left: 0;
     right: 0;
     font-size: xx-small;
+}
+
+.navbar-nav{
+    margin: 0 5px 0 5px;
 }
   
