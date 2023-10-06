@@ -1,15 +1,33 @@
 [
     {
+        "id":0,
+        "name":"ArcaneProxy",
+        "image": "/images/arcaneproxy.png",
+        "summary":"Site where user can generate Maigc the Gathering Cards with AI art",
+        "tech":"We get card information from Scryfall's Api, and provide portions of that data plus the user's prompt to generate unique art. Cardframes and styles generated through a mix of assets with HTML/CSS before being converted to an image with DOMtoImage.",
+        "github": "https://github.com/StevenVC-P/MTGCardAlter",
+        "url":"ArcaneProxy/stevenvancourt.com"
+    } , 
+    {
         "id":1,
-        "name":"Day Planner",
-        "image": "/images/day_planner.png",
-        "summary":"Single day planner, saves comments between page reloads and tracks current time of day.",
-        "tech":"Built on two loops, first to create an array of larger div elements for the working hours, and than a forEach loop to add details and saved informating into the loops.  Lastly used local storage to save information.",
-        "github": "https://github.com/StevenVC-P/day_planner",
-        "url":"https://stevenvc-p.github.io/day_planner/"
+        "name":"Swaps",
+        "image": "/images/swap1.png",
+        "summary":"High quality social media platform for the zero energy swap enthusiast.",
+        "tech":"Using React, user informaion, posts, and comments are saved into MongoDB for REST purposes.  The filter interacts with the state capabilites of React to make changes as the user wants.",
+        "github": "https://github.com/StevenVC-P/swaps/",
+        "url":"https://swaps.stevenvancourt.com/"
     },
     {
         "id":2,
+        "name":"Modern Mornings",
+        "image": "/images/modern_mornings.png",
+        "summary":"Search site, a flexible SPA UX design for Mobile or PC, with API calls to Gnews.Io and Reddit.",
+        "tech":"API calls are made on a single search to Gnews.Io and Reddit APis, and built a carousel in JavaScript that changes the hidden styling tied to classes that are removed and added through buttons.",
+        "github": "https://github.com/StevenVC-P/modern_mornings",
+        "url":"https://modernmornings.z13.web.core.windows.net/"
+    } ,
+        {
+        "id":3,
         "name":"Weather Dashboard",
         "image": "/images/Weather Dashboard.png",
         "summary":"Weather Dashboard allows the user to search a city for a current and 5 day forecast. It also saves past searches in local storage.",
@@ -18,39 +36,12 @@
         "url":"https://stevenvc-p.github.io/weather_dashboard/"
     } , 
     {
-        "id":3,
+        "id":4,
         "name":"Employee Directory",
         "image": "/images/employee_directory.png",
         "summary":"Application allows the user to sort and search employees by name",
         "tech":"Using the power of state and props in React, the search bar takes key inputs and sends them over a fuction that filters for any string values that contains string from the input, changing the state on each keystroke. change the state (and the display).",
         "github": "https://github.com/StevenVC-P/employee_directory",
         "url":"https://stevenvc-p.github.io/employee_directory/"
-    },  
-    {
-        "id":4,
-        "name":"Modern Mornings",
-        "image": "/images/modern_mornings.png",
-        "summary":"Search site, a flexible SPA UX design for Mobile or PC, with API calls to Gnews.Io and Reddit.",
-        "tech":"API calls are made on a single search to Gnews.Io and Reddit APis, and built a carousel in JavaScript that changes the hidden styling tied to classes that are removed and added through buttons.",
-        "github": "https://github.com/StevenVC-P/modern_mornings",
-        "url":"https://modernmornings.z13.web.core.windows.net/"
-    } ,
-    {
-        "id":5,
-        "name":"DayCare CMS",
-        "image": "/images/daycare.png",
-        "summary":"CRM system for daycare providers to track family information",
-        "tech":"Using SQL and AJAX, information for each family can added, edited, viewed, or deleted.  Lastly, PDHKit is used to create a unqiue PDF for each families billing.",
-        "github": "https://github.com/StevenVC-P/daycare_cms",
-        "url":"https://quiet-bayou-23568.herokuapp.com/"
-    } ,
-    {
-        "id":6,
-        "name":"Swaps",
-        "image": "/images/swap1.png",
-        "summary":"High quality social media platform for the zero energy swap enthusiast.",
-        "tech":"Using React, user informaion, posts, and comments are saved into MongoDB for REST purposes.  The filter interacts with the state capabilites of React to make changes as the user wants.",
-        "github": "https://github.com/StevenVC-P/swaps/",
-        "url":"https://swaps.stevenvancourt.com/"
-    } 
+    }
 ]
