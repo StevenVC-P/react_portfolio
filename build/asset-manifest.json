@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18bc146b.css",
+    "main.js": "/static/js/main.84dd3128.js",
+    "static/media/Full Stack Developer.pdf": "/static/media/Full Stack Developer.b970e2ff718765890eb6.pdf",
+    "static/media/Profesional Rounded.png": "/static/media/Profesional Rounded.fdd2d0a8ea4a159b2ae5.png",
+    "index.html": "/index.html",
+    "main.18bc146b.css.map": "/static/css/main.18bc146b.css.map",
+    "main.84dd3128.js.map": "/static/js/main.84dd3128.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18bc146b.css",
+    "static/js/main.84dd3128.js"
+  ]
+}
