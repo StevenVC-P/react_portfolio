@@ -6,7 +6,7 @@ import Container from "../components/Container";
 import my_pic from "../images/Profesional Rounded.png";
 
 function About() {
-  return (
+    return (
     <div>
       <Container style={{ marginTop: 10 }}>
         <Row>
