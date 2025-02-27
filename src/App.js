@@ -1,5 +1,5 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
@@ -15,7 +15,6 @@ function App() {
         <Header />
         <Wrapper>
           <Routes>
-            <Route path="/react_portfolio" element={<About />} />
             <Route path="/" element={<About />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
@@ -28,4 +27,3 @@ function App() {
 }
 
 export default App;
-
