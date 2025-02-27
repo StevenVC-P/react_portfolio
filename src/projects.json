@@ -15,7 +15,7 @@
         "summary":"High quality social media platform for the zero energy swap enthusiast.",
         "tech":"Using React, user informaion, posts, and comments are saved into MongoDB for REST purposes.  The filter interacts with the state capabilites of React to make changes as the user wants.",
         "github": "https://github.com/StevenVC-P/swaps/",
-        "url":"https://swaps.stevenvancourt.com/"
+        "url":"http://swaps.stevenvancourt.com/"
     },
     {
         "id":2,
@@ -24,7 +24,7 @@
         "summary":"Search site, a flexible SPA UX design for Mobile or PC, with API calls to Gnews.Io and Reddit.",
         "tech":"API calls are made on a single search to Gnews.Io and Reddit APis, and built a carousel in JavaScript that changes the hidden styling tied to classes that are removed and added through buttons.",
         "github": "https://github.com/StevenVC-P/modern_mornings",
-        "url":"https://modernmornings.z13.web.core.windows.net/"
+        "url":"https://modernmornings.stevenvancourt.com/"
     } ,
         {
         "id":3,
