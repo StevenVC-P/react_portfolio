@@ -5,7 +5,6 @@
         "image": "/images/arcaneproxy.png",
         "summary":"Site where user can generate Maigc the Gathering Cards with AI art",
         "tech":"We get card information from Scryfall's Api, and provide portions of that data plus the user's prompt to generate unique art. Cardframes and styles generated through a mix of assets with HTML/CSS before being converted to an image with DOMtoImage.",
-        "github": "https://github.com/StevenVC-P/MTGCardAlter",
         "url":"https://arcane-proxies.com/"
     } , 
     {

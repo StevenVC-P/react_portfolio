@@ -16,7 +16,9 @@ function ProjectCard(props) {
       <nav className="navbar-expand project-nav">
         <div className="content nav navbar-nav d-flex justify-content-around">
           <a className="nav-link nav-itemb" href={props.url} target = "_blank" rel="noopener noreferrer"><strong>Page</strong></a> 
+          {props.github && (
           <a className="nav-link nav-itemb" href={props.github} target = "_blank" rel="noopener noreferrer"><strong>Repository</strong></a>
+          )}
         </div>
       </nav>
     </div>
